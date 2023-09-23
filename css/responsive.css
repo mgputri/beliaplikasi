@@ -1,0 +1,58 @@
+
+@media screen and (max-width: 992px) {
+    #mainNav {
+        padding: 0;
+    }
+
+    #mainNav .container {
+        max-width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #mainNav .container .navbar-brand {
+        padding-left: 20px;
+    }
+
+    #mainNav .container .navbar-toggler {
+        padding-right: 20px;
+    }
+
+    #mainNav .navbar-nav>li>a {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #mainNav.navbar-shrink {
+        border-color: rgba(34, 34, 34, .1);
+        background-color: #fff;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .back-to-top {
+        right: 15px;
+        bottom: 15px;
+    }
+
+
+}
+
+@media screen and (max-width: 767px) {
+    #mainNav .container {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    #mainNav .container .navbar-brand img {
+        max-width: 80%;
+    }
+
+    #mainNav .navbar-nav>li>a {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+}
